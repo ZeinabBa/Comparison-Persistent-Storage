@@ -110,6 +110,8 @@ To add failures to nodes add three elements to the end of a node definition line
 They are element, iteration, stage.  So, this means that component fails at that iteration in that stage. 
 The element can be either "F:node" for node, and "F:sc" for SC. For example: `x1, 11200, 16, 8, 100-710, 15-100, SC, F:node, 1, 3` means the node fails at iteration 1 and stage 3 
 
+**<span style="color:red">SUPPER IMPORTANT NOTE:</span>**
+
 Here is a screenshot of running program and when it's run:
 
 ![CLI_and_Program_RUN](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/Program%20Run.jpg?raw=true)
