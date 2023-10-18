@@ -26,11 +26,10 @@ The simulation files provided in this repository allows you to perform the follo
 
 - Creating your own cluster with any number of nodes (lower limit is recommended to be 10)
 
-- By creating each node, one SC will be automatically deployed on that node
+- In Distributed Design, by creating each node, one SC and one RDS will be automatically deployed on that node. The size of the RDS is determined based on the total number of Applications in the cluster
 
 - Deploying any type and number of applications with the upper limit of node's capacities currently existing the cluster as per defined earlier
 
-- By creating a cluster of nodes and applications, one RDS will be created on each node. The size of the RDS is determined based on the total number of Applications in the cluster
 
 
 
@@ -101,12 +100,12 @@ The simulation generates log files that contain the result of each operation. He
   - At the end of the log file, a section called "Results" show the timing results of the run, like, operation time, worst, average, and best case execution time, data transmition, broadcast, data exchange, etc.
 
 # Examples with Images
-Here is a screenshot of the JSON creator program and its interactive pannel:
+Here is a screenshot of the input file for Distributed Design:
 
-![json_creator](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/JSON%20for%20inputfile%20creator.jpg?raw=true)
+![Input_file_distributed_design](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/JSON%20for%20inputfile%20creator.jpg?raw=true)
 
 When the input file is saved run the command given in Step 5 (Instruction Section in this READ ME).
-* NOTE: After adding Nodes you need to add Applications as the interactive pannel requests you.
+
 Here is a screenshot of running program and when it's run:
 
 ![CLI_and_Program_RUN](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/Program%20Run.jpg?raw=true)
