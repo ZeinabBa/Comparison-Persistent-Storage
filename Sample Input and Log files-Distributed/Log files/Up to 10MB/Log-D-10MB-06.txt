@@ -1,0 +1,415 @@
+INFO:root:
+========================
+Starting New Simulation: 
+INFO:root:Layers and apps created from script
+INFO:root: 270 apps, 6 cloud nodes and 80 edge-fog nodes created
+
+INFO:root: failure rate set at 0.0000
+INFO:root:
+Leader is on cloud layer, node 80
+
+INFO:root:Edge & Fog Layer Nodes:
+ node: 0
+  app number: 0
+  app number: 80
+  app number: 141
+  app number: 186
+  app number: 231
+  app number: 262
+  app number: 267
+ node: 1
+  app number: 1
+  app number: 81
+  app number: 142
+  app number: 187
+  app number: 232
+  app number: 263
+  app number: 268
+ node: 2
+  app number: 2
+  app number: 82
+  app number: 143
+  app number: 188
+  app number: 233
+  app number: 264
+  app number: 269
+ node: 3
+  app number: 3
+  app number: 83
+  app number: 144
+  app number: 189
+  app number: 234
+  app number: 265
+ node: 4
+  app number: 4
+  app number: 84
+  app number: 145
+  app number: 190
+  app number: 235
+  app number: 266
+ node: 5
+  app number: 5
+  app number: 85
+  app number: 146
+  app number: 191
+ node: 6
+  app number: 6
+  app number: 86
+  app number: 147
+  app number: 192
+ node: 7
+  app number: 7
+  app number: 87
+  app number: 148
+  app number: 193
+ node: 8
+  app number: 8
+  app number: 88
+  app number: 149
+  app number: 194
+ node: 9
+  app number: 9
+  app number: 89
+  app number: 150
+  app number: 195
+ node: 10
+  app number: 10
+  app number: 90
+  app number: 151
+  app number: 196
+ node: 11
+  app number: 11
+  app number: 91
+  app number: 152
+  app number: 197
+ node: 12
+  app number: 12
+  app number: 92
+  app number: 153
+  app number: 198
+ node: 13
+  app number: 13
+  app number: 93
+  app number: 154
+  app number: 199
+ node: 14
+  app number: 14
+  app number: 94
+  app number: 155
+  app number: 200
+ node: 15
+  app number: 15
+  app number: 95
+  app number: 156
+  app number: 201
+ node: 16
+  app number: 16
+  app number: 96
+  app number: 157
+  app number: 202
+ node: 17
+  app number: 17
+  app number: 97
+  app number: 158
+  app number: 203
+ node: 18
+  app number: 18
+  app number: 98
+  app number: 159
+  app number: 204
+ node: 19
+  app number: 19
+  app number: 99
+  app number: 160
+  app number: 205
+  app number: 236
+ node: 20
+  app number: 20
+  app number: 100
+  app number: 161
+  app number: 206
+  app number: 237
+ node: 21
+  app number: 21
+  app number: 101
+  app number: 162
+  app number: 207
+  app number: 238
+ node: 22
+  app number: 22
+  app number: 102
+  app number: 163
+  app number: 208
+  app number: 239
+ node: 23
+  app number: 23
+  app number: 103
+  app number: 164
+  app number: 209
+  app number: 240
+ node: 24
+  app number: 24
+  app number: 104
+  app number: 165
+  app number: 210
+  app number: 241
+ node: 25
+  app number: 25
+  app number: 105
+  app number: 166
+  app number: 211
+  app number: 242
+ node: 26
+  app number: 26
+  app number: 106
+  app number: 167
+  app number: 212
+  app number: 243
+ node: 27
+  app number: 27
+  app number: 107
+  app number: 168
+  app number: 213
+  app number: 244
+ node: 28
+  app number: 28
+  app number: 108
+  app number: 169
+  app number: 214
+  app number: 245
+ node: 29
+  app number: 29
+  app number: 109
+  app number: 170
+  app number: 215
+  app number: 246
+ node: 30
+  app number: 30
+  app number: 110
+  app number: 171
+  app number: 216
+  app number: 247
+ node: 31
+  app number: 31
+  app number: 111
+  app number: 172
+  app number: 217
+  app number: 248
+ node: 32
+  app number: 32
+  app number: 112
+  app number: 173
+  app number: 218
+  app number: 249
+ node: 33
+  app number: 33
+  app number: 113
+  app number: 174
+  app number: 219
+  app number: 250
+ node: 34
+  app number: 34
+  app number: 114
+  app number: 175
+  app number: 220
+  app number: 251
+ node: 35
+  app number: 35
+  app number: 115
+  app number: 176
+  app number: 221
+  app number: 252
+ node: 36
+  app number: 36
+  app number: 116
+  app number: 177
+  app number: 222
+  app number: 253
+ node: 37
+  app number: 37
+  app number: 117
+  app number: 178
+  app number: 223
+  app number: 254
+ node: 38
+  app number: 38
+  app number: 118
+  app number: 179
+  app number: 224
+  app number: 255
+ node: 39
+  app number: 39
+  app number: 119
+  app number: 180
+  app number: 225
+  app number: 256
+ node: 40
+  app number: 40
+  app number: 120
+  app number: 181
+  app number: 226
+  app number: 257
+ node: 41
+  app number: 41
+  app number: 121
+  app number: 182
+  app number: 227
+  app number: 258
+ node: 42
+  app number: 42
+  app number: 122
+  app number: 183
+  app number: 228
+  app number: 259
+ node: 43
+  app number: 43
+  app number: 123
+  app number: 184
+  app number: 229
+  app number: 260
+ node: 44
+  app number: 44
+  app number: 124
+  app number: 185
+  app number: 230
+  app number: 261
+ node: 45
+  app number: 45
+  app number: 125
+ node: 46
+  app number: 46
+  app number: 126
+ node: 47
+  app number: 47
+  app number: 127
+ node: 48
+  app number: 48
+  app number: 128
+ node: 49
+  app number: 49
+  app number: 129
+ node: 50
+  app number: 50
+  app number: 130
+ node: 51
+  app number: 51
+  app number: 131
+ node: 52
+  app number: 52
+  app number: 132
+ node: 53
+  app number: 53
+  app number: 133
+ node: 54
+  app number: 54
+  app number: 134
+ node: 55
+  app number: 55
+  app number: 135
+ node: 56
+  app number: 56
+  app number: 136
+ node: 57
+  app number: 57
+  app number: 137
+ node: 58
+  app number: 58
+  app number: 138
+ node: 59
+  app number: 59
+  app number: 139
+ node: 60
+  app number: 60
+  app number: 140
+ node: 61
+  app number: 61
+ node: 62
+  app number: 62
+ node: 63
+  app number: 63
+ node: 64
+  app number: 64
+ node: 65
+  app number: 65
+ node: 66
+  app number: 66
+ node: 67
+  app number: 67
+ node: 68
+  app number: 68
+ node: 69
+  app number: 69
+ node: 70
+  app number: 70
+ node: 71
+  app number: 71
+ node: 72
+  app number: 72
+ node: 73
+  app number: 73
+ node: 74
+  app number: 74
+ node: 75
+  app number: 75
+ node: 76
+  app number: 76
+ node: 77
+  app number: 77
+ node: 78
+  app number: 78
+ node: 79
+  app number: 79
+
+INFO:root:system is synchronized, sync_time = 699.47 ms
+INFO:root:iteration 0, t_iteration time = 699.47 ms
+INFO:root: last_iteration = 4
+
+INFO:root:
+Leader is on cloud layer, node 80
+
+INFO:root:--------------------------------------------------
+
+INFO:root:system is synchronized, sync_time = 599.47 ms
+INFO:root:iteration 1, t_iteration time = 599.47 ms
+INFO:root: last_iteration = 4
+
+INFO:root:
+Leader is on cloud layer, node 80
+
+INFO:root:--------------------------------------------------
+
+INFO:root:system is synchronized, sync_time = 591.88 ms
+INFO:root:iteration 2, t_iteration time = 591.88 ms
+INFO:root: last_iteration = 4
+
+INFO:root:
+Leader is on cloud layer, node 80
+
+INFO:root:--------------------------------------------------
+
+INFO:root:system is synchronized, sync_time = 591.88 ms
+INFO:root:iteration 3, t_iteration time = 591.88 ms
+INFO:root: last_iteration = 4
+
+INFO:root:
+Leader is on cloud layer, node 80
+
+INFO:root:--------------------------------------------------
+
+INFO:root:Results:
+INFO:root: Total Operation Time = 2482.70 ms
+INFO:root: There were 4 iterations.
+INFO:root:sync times: worst=699.47 ms, average=620.67 ms, best=591.88 ms
+INFO:root:Transition times and Broadcast times for each iteration:
+INFO:root: 1) transition:200.00 ms, broadcast:200.00 ms, synced 
+INFO:root: 2) transition:200.00 ms, broadcast:200.00 ms, synced 
+INFO:root: 3) transition:200.00 ms, broadcast:200.00 ms, synced 
+INFO:root: 4) transition:200.00 ms, broadcast:200.00 ms, synced 
+INFO:root:0 components failed:
+INFO:root: 0 Nodes, 0 SCs and 0 apps.
+INFO:root:
+The stage times for each iteration:
+INFO:root: 0) t0:100.00, t1:99.74, t2:0.00, t3:99.74, t4:200.00, t5:200.00, total time = 699.47 ms
+INFO:root: 1) t0:0.00, t1:99.74, t2:0.00, t3:99.74, t4:200.00, t5:200.00, total time = 599.47 ms
+INFO:root: 2) t0:0.00, t1:95.94, t2:0.00, t3:95.94, t4:200.00, t5:200.00, total time = 591.88 ms
+INFO:root: 3) t0:0.00, t1:95.94, t2:0.00, t3:95.94, t4:200.00, t5:200.00, total time = 591.88 ms
