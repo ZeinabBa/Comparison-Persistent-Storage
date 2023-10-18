@@ -58,9 +58,12 @@ B- Use the input files given in the repository or make your own input file using
 To Create your own input file as .txt use one sample Testcode and start editing with desired data, following bellow instruction:
  -NOTE: to comment out a line use # sign in the begining of the line in the input.txt file.
   a. add `percentage_of_failure` under the line "Failure Rate" to simulate random failure (e.g. 10 for 10%).
+  
   b. Under "Cloud Layer" specify the configuration of each cloud node as you desire in this order, number of instances, MIPS, memory, CPU cores, Bandwith (BW) range (to have it as fixed number initial and end of the numbers must be equal), Latency range (same as indicated for BW). You need to use x with a number to let the simulator know, how many instances of that node you requie. For example x5 means 5 instances. (You can add your own data for devices rather than what is given in the table in the paper)
-  b. Make sure to enter all the requested specification and at last specify if the node is a leader or not by. Either SC, or leader must be added to the line. Please note that only one leader can be there in the cluster, otherwise the results are not accutrate.
-  c. perform the same for the section called: Layer to specify fog and edge nodes.
+  
+- Make sure to enter all the requested specification and at last specify if the node is a leader or not by. Either SC, or leader must be added to the line. Please note that only one leader can be there in the cluster, otherwise the results are not accutrate.
+  
+  c. Perform the same for the section called: Layer to specify fog and edge nodes.
   
   d. Repeat the above steps for applications (SC, leader dosnet apply here) just make sure to add itteration number and data size at the end of the line (You can add any application specifications, not limited to the ones given in the table in the paper)
 
