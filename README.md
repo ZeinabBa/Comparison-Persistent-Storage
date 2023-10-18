@@ -55,7 +55,9 @@ Replace `input_file` with the name of the input file you want to use, `output_fi
 
 B- Use the input files given in the repository or make your own input file using a .txt file (you can also use the python file called `json creator` in previous repository to create your input files with json extension)
 To Create your own input file as .txt use one sample Testcode and start editing with desired data, following bellow instruction:
+
  -NOTE: to comment out a line use # sign in the begining of the line in the input.txt file.
+ 
   a. add `percentage_of_failure` under the line "Failure Rate" to simulate random failure (e.g. 10 for 10%).
   
   b. Under "Cloud Layer" specify the configuration of each cloud node as you desire in this order, number of instances, MIPS, memory, CPU cores, Bandwith (BW) range (to have it as fixed number initial and end of the numbers must be equal), Latency range (same as indicated for BW). You need to use x with a number to let the simulator know, how many instances of that node you requie. For example x5 means 5 instances. (You can add your own data for devices rather than what is given in the table in the paper)
