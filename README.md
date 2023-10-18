@@ -106,6 +106,10 @@ Here is a screenshot of the input file for Distributed Design:
 
 When the input file is saved run the command given in Step 5 (Instruction Section in this READ ME).
 
+To add failures to nodes add three elements to the end of a node definition line.
+They are element, iteration, stage.  So, this means that component fails at that iteration in that stage. 
+The element can be either "F:node" for node, and "F:sc" for SC. For example: `x1, 11200, 16, 8, 100-710, 15-100, SC, F:node, 1, 3` means the node fails at iteration 1 and stage 3 
+
 Here is a screenshot of running program and when it's run:
 
 ![CLI_and_Program_RUN](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/Program%20Run.jpg?raw=true)
