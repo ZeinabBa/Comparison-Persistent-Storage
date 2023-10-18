@@ -121,7 +121,7 @@ Here is a screenshot of the input file for Centralized Design:
 
 ![Input_file_centralized_design](https://github.com/ZeinabBa/Comparison-Persistent-Storage/blob/main/Input_file_centralized_design.JPG)
 
-* NOTE: It is very improtant to add the files extentions if they have one. For instance if you save the JSON file as .txt then you need to enter the complete file name including its extention (.txt in this case).
-* NOTE: As shown in this image output file is not specified, therefore, it writes in the deafult file: Syslog.txt (in the same folder). Details are mentioned in Step number 5.
+* NOTE: It is very improtant to add the files extentions if they have one. For instance if you save the file as .txt then you need to enter the complete file name including its extention (.txt in this case) in the command line for running the simulator.
+
 
 Example fo input and output files are given in the folder named "Sample Test Codes and Log Files" in this repository. Files their names include the word "test" are input files and files their names inlcude the word"log" are output files.
