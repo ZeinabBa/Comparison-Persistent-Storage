@@ -126,4 +126,4 @@ Here is a screenshot of the input file for Centralized Design:
 * NOTE: It is very improtant to add the files extentions if they have one. For instance if you save the file as .txt then you need to enter the complete file name including its extention (.txt in this case) in the command line for running the simulator.
 
 
-Example fo input and output files are given in the folder named "Sample Test Codes and Log Files" in this repository. Files their names include the word "test" are input files and files their names inlcude the word"log" are output files.
+Examples of input and output files are given in the folder named "Sample Test Codes and Log Files" in this repository. Files their names include the word "test" are input files and files their names inlcude the word"log" are output files.
