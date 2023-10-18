@@ -102,7 +102,7 @@ The simulation generates log files that contain the result of each operation. He
 # Examples with Images
 Here is a screenshot of the input file for Distributed Design:
 
-![Input_file_distributed_design](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/JSON%20for%20inputfile%20creator.jpg?raw=true)
+![Input_file_distributed_design]([https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/JSON%20for%20inputfile%20creator.jpg?raw=true](https://github.com/ZeinabBa/Comparison-Persistent-Storage/blob/main/Input_file_distributed_design.JPG))
 
 When the input file is saved run the command given in Step 5 (Instruction Section in this READ ME).
 
