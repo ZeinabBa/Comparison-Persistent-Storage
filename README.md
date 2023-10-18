@@ -107,6 +107,8 @@ Here is a screenshot of the input file for Distributed Design:
 - x1 means that this line creates one node. x29 means that it creates the node 29 times
 -  each comma separated item is as follow:
 -  number of times, MIPS, Ram Size in GB, storage size in GB, bw_start-bw_wnd, latency_start-latency-end, SC or Leader
+
+  
 When the input file is saved run the command given in Step 5 (Instruction Section in this READ ME).
 
 To add failures to nodes add three elements to the end of a node definition line.
