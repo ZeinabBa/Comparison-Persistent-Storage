@@ -62,7 +62,7 @@ To Create your own input file as .txt use one sample Testcode and start editing 
   
   b. Under "Cloud Layer" specify the configuration of each cloud node as you desire in this order, number of instances, MIPS, memory, CPU cores, Bandwith (BW) range (to have it as fixed number initial and end of the numbers must be equal), Latency range (same as indicated for BW). You need to use x with a number to let the simulator know, how many instances of that node you requie. For example x5 means 5 instances. (You can add your own data for devices rather than what is given in the table in the paper)
   
-- Make sure to enter all the requested specification and at last specify if the node is a leader or not by. Either SC, or leader must be added to the line. Please note that only one leader can be there in the cluster, otherwise the results are not accutrate.
+-NOTE: Make sure to enter all the requested specification and at last specify if the node is a leader or not by. Either SC, or leader must be added to the line. Please note that only one leader can be there in the cluster, otherwise the results are not accutrate.
   
   c. Perform the same for the section called: Layer to specify fog and edge nodes.
   
