@@ -82,7 +82,7 @@ Replace `input_file` with the name of the input file you want to use, `output_fi
 
 II- Do the same as specified in B, a, and b. 
 
-- Important Note: at the end of the line, specify if the node is a hosting centalized storage with letter "C" or it's replicat with letter "R". If none of these, leave it blank. It is important to know that in centralized design, only one node can be centralized storage and only one node can be it's replica.
+- Important Note: at the end of the line, specify if the node is a hosting centalized storage with letter "CS" or it's replicat with letter "R". If none of these, leave it blank. It is important to know that in centralized design, only one node can be centralized storage and only one node can be it's replica.
 
 III- Continue with doing as specified in c, d, e, f.  
 
@@ -117,7 +117,7 @@ The element can be either "F:node" for node, and "F:sc" for SC. For example: `x1
 
 **<span style="color:red">SUPPER IMPORTANT NOTE:</span>** When defining a Leader or a failure you must use "x1" as the first element
 
-Here is a screenshot of running program and when it's run:
+Here is a screenshot of the input file for Centralized Design:
 
 ![CLI_and_Program_RUN](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/Program%20Run.jpg?raw=true)
 
