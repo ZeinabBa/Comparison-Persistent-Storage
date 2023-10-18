@@ -119,7 +119,7 @@ The element can be either "F:node" for node, and "F:sc" for SC. For example: `x1
 
 Here is a screenshot of the input file for Centralized Design:
 
-![CLI_and_Program_RUN](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/Program%20Run.jpg?raw=true)
+![Input_file_centralized_design](https://github.com/ZeinabBa/Comparison-Persistent-Storage/blob/main/Input_file_centralized_design.JPG)
 
 * NOTE: It is very improtant to add the files extentions if they have one. For instance if you save the JSON file as .txt then you need to enter the complete file name including its extention (.txt in this case).
 * NOTE: As shown in this image output file is not specified, therefore, it writes in the deafult file: Syslog.txt (in the same folder). Details are mentioned in Step number 5.
