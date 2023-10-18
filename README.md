@@ -83,23 +83,9 @@ Replace `input_file` with the name of the input file you want to use, `output_fi
 
 II- Do the same as specified in B, a, and b. 
 
-- Important Note: at the end of the line, specify if the node is a hosting centalized storage or it's replicat. If none of these, leave it blank. It is important to know that in centralized design, only one node can be centralized storage and only one node can be it's replica.
+- Important Note: at the end of the line, specify if the node is a hosting centalized storage with letter "C" or it's replicat with letter "R". If none of these, leave it blank. It is important to know that in centralized design, only one node can be centralized storage and only one node can be it's replica.
 
-
-  
-  b. Under "Cloud Layer" specify the configuration of each cloud node as you desire in this order, number of instances, MIPS, memory, CPU cores, Bandwith (BW) range (to have it as fixed number initial and end of the numbers must be equal), Latency range (same as indicated for BW). You need to use x with a number to let the simulator know, how many instances of that node you requie. For example x5 means 5 instances. (You can add your own data for devices rather than what is given in the table in the paper)
-  
-- Make sure to enter all the requested specification and at last specify if the node is a leader or not by. Either SC, or leader must be added to the line. Please note that only one leader can be there in the cluster, otherwise the results are not accutrate.
-  
-  c. Perform the same for the section called: Layer to specify fog and edge nodes.
-  
-  d. Repeat the above steps for applications (SC, leader dosnet apply here) just make sure to add itteration number and data size at the end of the line (You can add any application specifications, not limited to the ones given in the table in the paper)
-
-  e. When done, save the file with a .txt` (recommended) extension in the same directory. 
-  
-  f. Use the created .txt file as the input file to run the simulation explained in item number 5
-  
-* A number of pre-created input files and their respected logs are available in the repository.
+III- Continue with doing as specified in c, d, e, f.  
 
 
 # Interpretation of log files
@@ -107,23 +93,12 @@ The simulation generates log files that contain the result of each operation. He
 
 - Each log file contains the result of one operation
 
-- Synchronization times are given based on numbers (`sync 1`, `sync 2`, etc.)
-  - NOTE: synchronization time calculated in the log files is the Response-time (on the paper) of the applications including application execution, data transfer and failure, recovery times for any entities.
-
-- The biggest value is the worst case, the smallest is the best. There is also an average time calculated in the same file
-
-- Each array is showing the data of one node
-
-- Each value in each array is for one app
-
-- A matrix of 30 columns and 20 rows means there are 20 nodes and 30 applications deployed on them
-
-- By following the values on the matrix, you can see how the data changes after each iteration of application execution and how the cluster goes to sync (values of one array are horizontally equal to the other one.)
-
-- Operation time is also given in the log file
+- In the log file, the information of number of nodes and applications, failure rate  (for example .1000 means, 10%), allocation, time stamps of synchronization in each iteration, total number of itterations, node hosting the leader for distributed design or  C/R for centralized design.
 
 - Failure details are also included 
   - The details are about failed entities, what stage, what component and if it is SC and App then what Node they where deployed on and if it is an application then which itteration the failure has occured.
+ 
+  - At the end of the log file, a section called "Results" show the timing results of the run, like, operation time, worst, average, and best case execution time, data transmition, broadcast, data exchange, etc.
 
 # Examples with Images
 Here is a screenshot of the JSON creator program and its interactive pannel:
