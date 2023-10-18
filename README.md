@@ -82,7 +82,7 @@ Replace `input_file` with the name of the input file you want to use, `output_fi
 
 II- Do the same as specified in B, a, and b. 
 
-- Important Note: at the end of the line, specify if the node is a hosting centalized storage with letter "C" or it's replicat with letter "R". If none of these, leave it blank. It is important to know that in centralized design, only one node can be centralized storage and only one node can be it's replica.
+- Important Note: at the end of the line, specify if the node is a hosting centalized storage with letter "CS" or it's replicat with letter "R". If none of these, leave it blank. It is important to know that in centralized design, only one node can be centralized storage and only one node can be it's replica.
 
 III- Continue with doing as specified in c, d, e, f.  
 
@@ -102,11 +102,22 @@ The simulation generates log files that contain the result of each operation. He
 # Examples with Images
 Here is a screenshot of the input file for Distributed Design:
 
-![Input_file_distributed_design](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/JSON%20for%20inputfile%20creator.jpg?raw=true)
+![Input_file_distributed_design](https://github.com/ZeinabBa/Comparison-Persistent-Storage/blob/main/Input_file_distributed_design.JPG)
 
+- x1 means that this line creates one node. x29 means that it creates the node 29 times
+-  each comma separated item is as follow:
+-  number of times, MIPS, Ram Size in GB, storage size in GB, bw_start-bw_wnd, latency_start-latency-end, SC or Leader
+
+  
 When the input file is saved run the command given in Step 5 (Instruction Section in this READ ME).
 
-Here is a screenshot of running program and when it's run:
+To add failures to nodes add three elements to the end of a node definition line.
+They are element, iteration, stage.  So, this means that component fails at that iteration in that stage. 
+The element can be either "F:node" for node, and "F:sc" for SC. For example: `x1, 11200, 16, 8, 100-710, 15-100, SC, F:node, 1, 3` means the node fails at iteration 1 and stage 3 
+
+**<span style="color:red">SUPPER IMPORTANT NOTE:</span>** When defining a Leader or a failure you must use "x1" as the first element
+
+Here is a screenshot of the input file for Centralized Design:
 
 ![CLI_and_Program_RUN](https://github.com/ZeinabBa/Persistent-Storage-Simulation/blob/main/Pictures/Program%20Run.jpg?raw=true)
 
