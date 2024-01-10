@@ -70,7 +70,7 @@ To Create your own input file as .txt use one sample Testcode and start editing 
 
   e. When done, save the file with a .txt` (recommended) extension in the same directory. 
   
-  f. Use the created .txt file as the input file to run the simulation explained in item number 5
+  f. Use the created .txt file as the input file to run the simulation explained in item A.
   
 * A number of pre-created input files and their respected logs are available in the repository.
 
@@ -111,7 +111,7 @@ Here is a screenshot of the input file for Distributed Design:
 -  number of times, MIPS, Ram Size in GB, storage size in GB, bw_start-bw_wnd, latency_start-latency-end, SC or Leader
 
   
-When the input file is saved run the command given in Step 5 (Instruction Section in this READ ME).
+When the input file is saved run the command given in Step A (Instruction Section in this READ ME).
 
 To add failures to nodes add three elements to the end of a node definition line.
 They are element, iteration, stage.  So, this means that component fails at that iteration in that stage. 
